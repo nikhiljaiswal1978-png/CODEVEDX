@@ -95,10 +95,6 @@ Frontend: `http://localhost:3000`
 
 The Vite dev server proxies `/api` and `/socket.io` to the backend.
 
-## Environment
-
-Copy `backend/.env.example` to `backend/.env` and set a strong `JWT_SECRET` for non-local use.
-
 ## Roles
 
 The first registered account is automatically an **admin**. Later registrations are **employees**. An administrator can promote users to manager/admin from the Users page.
