@@ -1,0 +1,11 @@
+const r = require("express").Router();
+const c = require("../controllers/uploadController");
+const { protect } = require("../middleware/auth");
+const upload = require("../middleware/upload");
+r.use(protect);
+r.post("/task/:taskId", upload.single("file"), c.uploadToTask);
+r.post("/project/:projectId", upload.single("file"), c.uploadToProject);
+r.get("/task/:taskId", c.listByTask);
+r.get("/project/:projectId", c.listByProject);
+r.delete("/:id", c.remove);
+module.exports = r;
