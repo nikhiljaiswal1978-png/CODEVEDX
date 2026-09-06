@@ -66,7 +66,7 @@ A full-stack project management application built with MongoDB, Express, React, 
              └────────────────┬────────────────┘
                               │
                        MongoDB + Mongoose
-
+```
 ## Run locally
 
 ### 1. MongoDB
