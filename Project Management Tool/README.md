@@ -16,6 +16,57 @@ A full-stack project management application built with MongoDB, Express, React, 
 - Global analytics and project-level status/workload analytics
 - Dark/light theme
 
+## 🛠️ Technologies Used
+
+### Frontend
+- **React.js** – Building the user interface and application components
+- **Vite** – Fast frontend development and build tool
+- **JavaScript (ES6+)** – Application logic
+- **React Router DOM** – Client-side routing and navigation
+- **Axios** – Communication with backend REST APIs
+- **Recharts** – Dashboard charts and analytics
+- **React Big Calendar** – Calendar and task scheduling
+- **Framer Motion** – UI animations and transitions
+- **Lucide React** – Icons
+- **date-fns** – Date formatting and manipulation
+- **CSS** – Styling and responsive layouts
+
+### Backend
+- **Node.js** – Backend runtime environment
+- **Express.js** – REST API and server framework
+- **MongoDB** – Database for storing application data
+- **Mongoose** – MongoDB object modeling
+- **JWT (JSON Web Token)** – User authentication and authorization
+- **Socket.IO** – Real-time communication and live updates
+- **Multer** – File upload handling
+- **CORS** – Cross-origin resource sharing
+- **Morgan** – HTTP request logging
+
+### Development Tools
+- **npm** – Package management
+- **Git & GitHub** – Version control and project hosting
+- **VS Code** – Development environment
+
+## 🏗️ Architecture
+
+```text
+                    Project Management Tool
+                              │
+             ┌────────────────┴────────────────┐
+             │                                 │
+         Frontend                           Backend
+             │                                 │
+      React.js + Vite                    Node.js + Express
+             │                                 │
+      React Router                         REST APIs
+      Axios                                JWT Auth
+      Recharts                            Socket.IO
+      Calendar                             Multer
+             │                                 │
+             └────────────────┬────────────────┘
+                              │
+                       MongoDB + Mongoose
+
 ## Run locally
 
 ### 1. MongoDB
